@@ -91,9 +91,9 @@ export default {
       <div class="container py-5 position-relative">
         <a href="#" class="series">CURRENT SERIES</a>
         <div class="row">
-          <div class="col-2 mb-4" v-for="comic in comics">
+          <div class="col-2 mb-4 d-flex flex-column" v-for="comic in comics">
               <img :src="comic.thumb" class="img-fluid" alt="">
-              <strong class="text-white">{{ comic.series }}</strong>
+              <strong class="text-white mt-3">{{ comic.series }}</strong>
           </div>
         </div>
         <div class="d-flex justify-content-center">

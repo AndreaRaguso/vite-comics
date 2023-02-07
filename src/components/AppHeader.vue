@@ -10,12 +10,12 @@ export default {
 
 <template>
   <header>
-    <div class="container d-flex align-items-center justify-content-between">
-      <div>
-          <img src="../img/dc-logo.png"  alt="">
+    <div class="container d-flex align-items-center justify-content-between h-100">
+      <div class="h-75">
+          <img src="../img/dc-logo.png" class=" img-fluid h-100 w-100" alt="">
       </div>
-      <div class="">
-          <ul class="d-flex align-items-center" >
+      <div class="h-100">
+          <ul class="d-flex  align-items-stretch mb-0 h-100" >
               <li>CHARACTERS</li>
               <li class="active">COMICS</li>
               <li>MOVIES</li>
